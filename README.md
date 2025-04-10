@@ -12,13 +12,13 @@ This plugin supports both the [Chat API](https://platform.openai.com/docs/guides
 
 # Global block settings
 
-The global block settings can be found by going to Site Administration > Plugins > Blocks > OpenAI Chat Block. The options are:
+The global block settings can be found by going to Site Administration > Plugins > Blocks > SteinEDU Chat Block. The options are:
 -  **OpenAI API Key:** This is where you add the API key given to you by OpenAI
 -  **API Type:** The plugin can only use either the Chat API or the Assistant API globally; this selector allows an admin to switch between which API is active. The rest of the settings on this page will change based on which is selected.
 -  **Restrict chat usage to logged-in users:** If this box is checked, only logged-in users will be able to use the chat box.
 -  **Assistant name:** When the Chat API is enabled, the AI will use this name for itself in the conversation. It is also always used for the UI headings in the chat window.
 -  **User name:** When the Chat API is enabled, the AI will use this name for the user in the conversation. Both this and the above option can be used to influence the persona and responses of the AI. It is also always used for the UI headings in the chat window.
--  **Enable logging:** Checking this box will record all messages sent by users along with the AI response. When logging is enabled, a recording icon is displayed in the block to indicate to users that their messages are being saved. Interactions with the AI can be found at Site Administration > Reports > OpenAI Chat Logs.
+-  **Enable logging:** Checking this box will record all messages sent by users along with the AI response. When logging is enabled, a recording icon is displayed in the block to indicate to users that their messages are being saved. Interactions with the AI can be found at Site Administration > Reports > SteinEDU Chat Logs.
   
 ### Assistant API settings
 These settings only appear when "Assistant" is chosen as the API Type
@@ -38,7 +38,7 @@ These are extra, advanced parameters to adjust the behavior of the model
 
 ## Individual block settings
 
-There are a few settings that can be changed on a per-block basis. You can access these settings by entering editing mode on your site and clicking the gear on the block, and then going to "Configure OpenAI Chat Block"
+There are a few settings that can be changed on a per-block basis. You can access these settings by entering editing mode on your site and clicking the gear on the block, and then going to "Configure SteinEDU Chat Block"
 
 - **Block title:** The title for this block
 - **Show labels:** Whether or not the names chosen for "Assistant name" and "User name" should appear in the chat UI
